@@ -1,10 +1,10 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:82:14: fruitless type test: a value of type models.Booking cannot also be a play.api.libs.json.JsError[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:153:14: fruitless type test: a value of type models.Booking cannot also be a play.api.libs.json.JsError[0m
 [0m[[0m[33mwarn[0m] [0m[0m      case e:JsError => BadRequest("No se pudo actualizar porque hay malos parametros!!")[0m
 [0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:81:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:152:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
 [0m[[0m[33mwarn[0m] [0m[0m      case success => Ok("json")[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:82:35: unreachable code due to variable pattern 'success' on line 81[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\nico9\Desktop\Empresariales\git\RentRooms\app\controllers\RoomController.scala:153:35: unreachable code due to variable pattern 'success' on line 152[0m
 [0m[[0m[33mwarn[0m] [0m[0m      case e:JsError => BadRequest("No se pudo actualizar porque hay malos parametros!!")[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

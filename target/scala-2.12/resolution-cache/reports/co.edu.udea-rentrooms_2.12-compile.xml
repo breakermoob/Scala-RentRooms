@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20200506234646"/>
+		date="20200507152302"/>
 	<dependencies>
 		<module organisation="mysql" name="mysql-connector-java">
 			<revision name="8.0.20" status="release" pubdate="20200309061905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
@@ -22,12 +22,12 @@
 			</revision>
 		</module>
 		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="3.6.1" status="release" pubdate="20180730192705" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+			<revision name="3.6.1" status="release" pubdate="20180730192705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
 				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="4749" time="450" location="C:\Users\nico9\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.6.1.xml" searched="true" original-local-location="C:\Users\nico9\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.pom"/>
+				<metadata-artifact status="no" details="" size="4848" time="0" location="C:\Users\nico9\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.pom"/>
 				<caller organisation="mysql" name="mysql-connector-java" conf="default, compile, runtime, master" rev="3.6.1" rev-constraint-default="3.6.1" rev-constraint-dynamic="3.6.1" callerrev="8.0.20"/>
 				<artifacts>
-					<artifact name="protobuf-java" type="bundle" ext="jar" status="successful" details="" size="1421323" time="1261" location="C:\Users\nico9\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-3.6.1.jar">
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1421323" time="0" location="C:\Users\nico9\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-3.6.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar"/>
 					</artifact>
 				</artifacts>
