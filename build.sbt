@@ -11,7 +11,7 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
 // Estas son las dependencias necesarias para trabajar con bases de datos MySQL
 libraryDependencies += jdbc
-libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.41"
+libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.20"
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "co.edu.udea.controllers._"
