@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/break/Desktop/RentRooms/conf/routes
-// @DATE:Wed May 06 20:32:28 COT 2020
+// @SOURCE:C:/Users/nico9/Desktop/Empresariales/git/RentRooms/conf/routes
+// @DATE:Wed May 06 22:52:58 EDT 2020
 
 import play.api.mvc.Call
 
@@ -11,37 +11,34 @@ import _root_.controllers.Assets.Asset
 package controllers {
 
   // @LINE:7
-  class ReverseHomeController(_prefix: => String) {
+  class ReverseRoomController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
     // @LINE:14
-    def getRooms(): Call = {
+    def booking(): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "rooms")
+      Call("POST", _prefix + { _defaultPrefix } + "booking")
+    }
+  
+    // @LINE:10
+    def search(location:String, checkin:String, checkout:String): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "rooms/search" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("location", location)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("checkin", checkin)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("checkout", checkout)))))
+    }
+  
+    // @LINE:11
+    def detail(id:Long): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "rooms/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id)))
     }
   
     // @LINE:7
-    def index(): Call = {
+    def getRooms(): Call = {
       
-      Call("GET", _prefix)
-    }
-  
-  }
-
-  // @LINE:10
-  class ReverseAssets(_prefix: => String) {
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:10
-    def versioned(file:Asset): Call = {
-      implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
-      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
+      Call("GET", _prefix + { _defaultPrefix } + "rooms")
     }
   
   }

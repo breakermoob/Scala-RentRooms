@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/break/Desktop/RentRooms/conf/routes
-// @DATE:Wed May 06 20:32:28 COT 2020
+// @SOURCE:C:/Users/nico9/Desktop/Empresariales/git/RentRooms/conf/routes
+// @DATE:Wed May 06 22:52:58 EDT 2020
 
 package router
 
@@ -14,23 +14,19 @@ import _root_.controllers.Assets.Asset
 class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:7
-  HomeController_0: controllers.HomeController,
-  // @LINE:10
-  Assets_1: controllers.Assets,
+  RoomController_0: controllers.RoomController,
   val prefix: String
 ) extends GeneratedRouter {
 
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:7
-    HomeController_0: controllers.HomeController,
-    // @LINE:10
-    Assets_1: controllers.Assets
-  ) = this(errorHandler, HomeController_0, Assets_1, "/")
+    RoomController_0: controllers.RoomController
+  ) = this(errorHandler, RoomController_0, "/")
 
   def withPrefix(prefix: String): Routes = {
     router.RoutesPrefix.setPrefix(prefix)
-    new Routes(errorHandler, HomeController_0, Assets_1, prefix)
+    new Routes(errorHandler, RoomController_0, prefix)
   }
 
   private[this] val defaultPrefix: String = {
@@ -38,9 +34,10 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.HomeController.index"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """rooms""", """controllers.HomeController.getRooms"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """rooms""", """controllers.RoomController.getRooms"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """rooms/search""", """controllers.RoomController.search(location:String, checkin:String, checkout:String)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """rooms/""" + "$" + """id<[^/]+>""", """controllers.RoomController.detail(id:Long)"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """booking""", """controllers.RoomController.booking"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -49,50 +46,14 @@ class Routes(
 
 
   // @LINE:7
-  private[this] lazy val controllers_HomeController_index0_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix)))
-  )
-  private[this] lazy val controllers_HomeController_index0_invoker = createInvoker(
-    HomeController_0.index,
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.HomeController",
-      "index",
-      Nil,
-      "GET",
-      this.prefix + """""",
-      """ An example controller showing a sample home page""",
-      Seq()
-    )
-  )
-
-  // @LINE:10
-  private[this] lazy val controllers_Assets_versioned1_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
-  )
-  private[this] lazy val controllers_Assets_versioned1_invoker = createInvoker(
-    Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.Assets",
-      "versioned",
-      Seq(classOf[String], classOf[Asset]),
-      "GET",
-      this.prefix + """assets/""" + "$" + """file<.+>""",
-      """ Map static resources from the /public folder to the /assets URL path""",
-      Seq()
-    )
-  )
-
-  // @LINE:14
-  private[this] lazy val controllers_HomeController_getRooms2_route = Route("GET",
+  private[this] lazy val controllers_RoomController_getRooms0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("rooms")))
   )
-  private[this] lazy val controllers_HomeController_getRooms2_invoker = createInvoker(
-    HomeController_0.getRooms,
+  private[this] lazy val controllers_RoomController_getRooms0_invoker = createInvoker(
+    RoomController_0.getRooms,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.HomeController",
+      "controllers.RoomController",
       "getRooms",
       Nil,
       "GET",
@@ -102,25 +63,85 @@ class Routes(
     )
   )
 
+  // @LINE:10
+  private[this] lazy val controllers_RoomController_search1_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("rooms/search")))
+  )
+  private[this] lazy val controllers_RoomController_search1_invoker = createInvoker(
+    RoomController_0.search(fakeValue[String], fakeValue[String], fakeValue[String]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.RoomController",
+      "search",
+      Seq(classOf[String], classOf[String], classOf[String]),
+      "GET",
+      this.prefix + """rooms/search""",
+      """ rooms""",
+      Seq()
+    )
+  )
+
+  // @LINE:11
+  private[this] lazy val controllers_RoomController_detail2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("rooms/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_RoomController_detail2_invoker = createInvoker(
+    RoomController_0.detail(fakeValue[Long]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.RoomController",
+      "detail",
+      Seq(classOf[Long]),
+      "GET",
+      this.prefix + """rooms/""" + "$" + """id<[^/]+>""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:14
+  private[this] lazy val controllers_RoomController_booking3_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("booking")))
+  )
+  private[this] lazy val controllers_RoomController_booking3_invoker = createInvoker(
+    RoomController_0.booking,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.RoomController",
+      "booking",
+      Nil,
+      "POST",
+      this.prefix + """booking""",
+      """ booking""",
+      Seq()
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
     // @LINE:7
-    case controllers_HomeController_index0_route(params@_) =>
+    case controllers_RoomController_getRooms0_route(params@_) =>
       call { 
-        controllers_HomeController_index0_invoker.call(HomeController_0.index)
+        controllers_RoomController_getRooms0_invoker.call(RoomController_0.getRooms)
       }
   
     // @LINE:10
-    case controllers_Assets_versioned1_route(params@_) =>
-      call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned1_invoker.call(Assets_1.versioned(path, file))
+    case controllers_RoomController_search1_route(params@_) =>
+      call(params.fromQuery[String]("location", None), params.fromQuery[String]("checkin", None), params.fromQuery[String]("checkout", None)) { (location, checkin, checkout) =>
+        controllers_RoomController_search1_invoker.call(RoomController_0.search(location, checkin, checkout))
+      }
+  
+    // @LINE:11
+    case controllers_RoomController_detail2_route(params@_) =>
+      call(params.fromPath[Long]("id", None)) { (id) =>
+        controllers_RoomController_detail2_invoker.call(RoomController_0.detail(id))
       }
   
     // @LINE:14
-    case controllers_HomeController_getRooms2_route(params@_) =>
+    case controllers_RoomController_booking3_route(params@_) =>
       call { 
-        controllers_HomeController_getRooms2_invoker.call(HomeController_0.getRooms)
+        controllers_RoomController_booking3_invoker.call(RoomController_0.booking)
       }
   }
 }

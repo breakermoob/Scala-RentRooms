@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/break/Desktop/RentRooms/conf/routes
-// @DATE:Wed May 06 20:32:28 COT 2020
+// @SOURCE:C:/Users/nico9/Desktop/Empresariales/git/RentRooms/conf/routes
+// @DATE:Wed May 06 22:52:58 EDT 2020
 
 package controllers;
 
@@ -8,13 +8,11 @@ import router.RoutesPrefix;
 
 public class routes {
   
-  public static final controllers.ReverseHomeController HomeController = new controllers.ReverseHomeController(RoutesPrefix.byNamePrefix());
-  public static final controllers.ReverseAssets Assets = new controllers.ReverseAssets(RoutesPrefix.byNamePrefix());
+  public static final controllers.ReverseRoomController RoomController = new controllers.ReverseRoomController(RoutesPrefix.byNamePrefix());
 
   public static class javascript {
     
-    public static final controllers.javascript.ReverseHomeController HomeController = new controllers.javascript.ReverseHomeController(RoutesPrefix.byNamePrefix());
-    public static final controllers.javascript.ReverseAssets Assets = new controllers.javascript.ReverseAssets(RoutesPrefix.byNamePrefix());
+    public static final controllers.javascript.ReverseRoomController RoomController = new controllers.javascript.ReverseRoomController(RoutesPrefix.byNamePrefix());
   }
 
 }
