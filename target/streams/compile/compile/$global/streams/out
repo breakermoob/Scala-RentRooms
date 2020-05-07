@@ -1,0 +1,10 @@
+[error] C:\Users\break\Desktop\RentRooms\app\controllers\HomeController.scala:24:3: not found: value rooms
+[error]   rooms = List[Room]()
+[error]   ^
+[error] C:\Users\break\Desktop\RentRooms\app\controllers\HomeController.scala:34:7: not found: value rooms
+[error]       rooms = rooms :+ p
+[error]       ^
+[error] C:\Users\break\Desktop\RentRooms\app\controllers\HomeController.scala:42:29: not found: value rooms
+[error]   val jsonAux = Json.toJson(rooms) // Finalmente, se Jsifican los resultados
+[error]                             ^
+[error] three errors found

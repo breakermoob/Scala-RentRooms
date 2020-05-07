@@ -1,0 +1,5 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\break\Desktop\RentRooms\conf\application.conf,C:\Users\break\Desktop\RentRooms\target\scala-2.12\classes\application.conf)
+[debug] 	(C:\Users\break\Desktop\RentRooms\conf\logback.xml,C:\Users\break\Desktop\RentRooms\target\scala-2.12\classes\logback.xml)
+[debug] 	(C:\Users\break\Desktop\RentRooms\conf\messages,C:\Users\break\Desktop\RentRooms\target\scala-2.12\classes\messages)
+[debug] 	(C:\Users\break\Desktop\RentRooms\conf\routes,C:\Users\break\Desktop\RentRooms\target\scala-2.12\classes\routes)
