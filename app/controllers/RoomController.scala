@@ -121,7 +121,6 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
       // Antes de retornar los resultados, cerramos la conexión a la BD
       conexion.close()
     }
-    println(room)
     val jsonAux = Json.toJson(room) // Finalmente, se Jsifican los resultados
     Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada    
   }
