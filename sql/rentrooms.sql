@@ -21,8 +21,8 @@ CREATE TABLE IF NOT EXISTS Rooms (
   `name` varchar(50) NOT NULL,
   `locationId` INT(50) NOT NULL,
   `description` varchar(255) NOT NULL,
-  `rating` DECIMAL(25),
-  `price` DECIMAL(50) NOT NULL,
+  `rating` DOUBLE,
+  `price` DOUBLE NOT NULL,
   `thumbnail` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
@@ -59,8 +59,8 @@ CREATE TABLE IF NOT EXISTS `Locations` (
   `id` INT(50) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
   `code` varchar(25) NOT NULL,
-  `latitude` DECIMAL(50) NOT NULL,
-  `longitude` DECIMAL(50) NOT NULL,
+  `latitude` DOUBLE NOT NULL,
+  `longitude` DOUBLE NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = latin1;
 -- Filtros para las tablas

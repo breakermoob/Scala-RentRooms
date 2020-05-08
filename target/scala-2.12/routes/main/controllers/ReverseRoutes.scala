@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/nico9/Desktop/Empresariales/git/RentRooms/conf/routes
-// @DATE:Wed May 06 22:52:58 EDT 2020
+// @DATE:Thu May 07 15:23:16 COT 2020
 
 import play.api.mvc.Call
 

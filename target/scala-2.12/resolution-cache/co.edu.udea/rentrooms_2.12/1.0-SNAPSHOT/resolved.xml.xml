@@ -4,7 +4,7 @@
 		module="rentrooms_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20200506234646"
+		publication="20200507184722"
 	>
 		<description>
 		RentRooms
@@ -51,6 +51,6 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.12" conf="compile->default(compile)"/>
 		<dependency org="org.scalatestplus.play" name="scalatestplus-play_2.12" rev="3.1.2" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.12" rev="2.6.12" conf="compile->default(compile)"/>
-		<dependency org="mysql" name="mysql-connector-java" rev="8.0.20" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.41" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
