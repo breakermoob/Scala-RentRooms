@@ -36,7 +36,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     try{
     // Ahora creamos una variable en donde formulamos nuestra query SQL de búsqueda y la ejecutamos
       val query = conexion.createStatement
-      val rooms = query.executeQuery(s"SELECT * FROM rooms r INNER JOIN locations l ON r.locationId = l.id WHERE l.code = '$location'")
+      val rooms = query.executeQuery(s"SELECT * FROM Rooms r INNER JOIN Locations l ON r.locationId = l.id WHERE l.code = '$location'")
         
       // Ya con el resultado de la consulta, creamos objetos mascota y los agregamos a la lista de apoyo
       val roomsRes: List[JsValue] = Iterator.continually(rooms).takeWhile(_.next()).map{ rooms =>
