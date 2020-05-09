@@ -8,13 +8,15 @@ import models.{Booking, Location, Room}
 import play.api.db._
 import java.text.SimpleDateFormat  
 import java.util.Calendar
+import play.filters.hosts.AllowedHostsFilter
+
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
  */
 @Singleton
-class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) {
+class RoomController @Inject()(db: Database,cc: ControllerComponents, allowedHostsFilter: AllowedHostsFilter) extends AbstractController(cc) {
 
   def getRooms = Action {
     Ok("ok")
