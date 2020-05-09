@@ -154,8 +154,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
         val dateFormat = new SimpleDateFormat("yyyy-MM-dd")
 
         val qCheckin = dateFormat.parse(nuevaReserva("checkin").as[String])
-        val qCheckout = dateFormat.parse(nuevaReserva("checkout").as[String])
-        // println(qCheckin.compareTo(qCheckout))               
+        val qCheckout = dateFormat.parse(nuevaReserva("checkout").as[String])           
         if(qCheckin.compareTo(qCheckout) >= 0) {
           BadRequest("Checkin date should be before checkout.")
         }else{
@@ -176,7 +175,6 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
                 }                 
               }
               if(reservaOcupada == true){
-                println("Entre")
                 BadRequest("Occupied room.")
               }else{
                 val resultadoInsert = query.executeUpdate(s"INSERT INTO bookings (`name`, `email`, `checkin`, `checkout`, `roomId`) " +
