@@ -7,7 +7,8 @@ import play.api.libs.json._
 import models.{Booking, Location, Room}
 import play.api.db._
 import java.text.SimpleDateFormat  
-import java.util.Calendar
+import java.util.{Calendar, Date}
+import java.sql.Timestamp
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -36,20 +37,22 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     try{
     // Ahora creamos una variable en donde formulamos nuestra query SQL de búsqueda y la ejecutamos
       val query = conexion.createStatement
-      val rooms = query.executeQuery(s"SELECT * FROM rooms r INNER JOIN locations l ON r.locationId = l.id WHERE l.code = '$location'")
+      val query1 = conexion.createStatement
+      val rooms = query.executeQuery(s"SELECT * FROM Rooms r INNER JOIN Locations l ON r.locationId = l.id WHERE l.code = '$location'")
         
       // Ya con el resultado de la consulta, creamos objetos mascota y los agregamos a la lista de apoyo
       val roomsRes: List[JsValue] = Iterator.continually(rooms).takeWhile(_.next()).map{ rooms =>
         val roomId = rooms.getInt("r.id")
-        /*val bookings = query.executeQuery(s"SELECT * FROM bookings WHERE roomId = $roomId")
+        val bookings = query1.executeQuery(s"SELECT * FROM Bookings WHERE roomId = $roomId")
         
-        val bookingsRes: List[Boolean] = Iterator.continually(bookings).takeWhile(_.next()).map{ bookings =>
-          val bCheckin = bookings.getDate("checkin")
-          val bCheckout = bookings.getDate("checkout")
-          if ((qCheckin.compareTo(bCheckin) =< 0  && qCheckout.compareTo(bCheckout) >= 0) || (qCheckin.compareTo(bCheckin) >= 0 && qCheckin.compareTo(bCheckout) < 0) || (qCheckout.compareTo(bCheckin) > 0 && qCheckout.compareTo(bCheckout) =< 0)) true
+        val bookingsRes: List[java.sql.ResultSet] = Iterator.continually(bookings).takeWhile(_.next()).filter{ bookings =>
+          val bCheckin = bookings.getTimestamp("checkin")
+          val bCheckout = bookings.getTimestamp("checkout")
+
+          (qCheckin.compareTo(bCheckin) <= 0  && qCheckout.compareTo(bCheckout) >= 0) || (qCheckin.compareTo(bCheckin) >= 0 && qCheckin.compareTo(bCheckout) < 0) || (qCheckout.compareTo(bCheckin) > 0 && qCheckout.compareTo(bCheckout) <= 0)
         }.toList
         
-        if (bookingsRes == Nil) {*/
+        if (bookingsRes == Nil) {
           val json: JsValue = Json.obj(
             "id" -> roomId,
             "thumbnail" -> rooms.getString("r.thumbnail"),
@@ -69,9 +72,11 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
             "rating" -> rooms.getDouble("r.rating")
           )
 
-          json
-        //}
-      }.toList
+          Some(json)
+        }
+        else
+          None
+      }.toList.flatten
       
       val jsonAux = Json.toJson(roomsRes) // Finalmente, se Jsifican los resultados
       Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada
