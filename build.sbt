@@ -13,6 +13,8 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2
 libraryDependencies += jdbc
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.41"//"8.0.20"
 
+libraryDependencies += filters
+
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "co.edu.udea.controllers._"
 
