@@ -15,7 +15,6 @@ import java.util.Calendar
  */
 @Singleton
 class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) {
-println(config.get[Seq[String]]("play.filters.hosts.allowed"))
   def getRooms = Action {
     Ok("ok")
   }
