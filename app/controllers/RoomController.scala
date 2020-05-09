@@ -68,7 +68,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
                 "currency" -> "COP",
                 "agency" -> Json.obj(
                   "name" -> "Agencia Scala",
-                  "id" -> 42
+                  "id" -> 42,
                   "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
                 ),
                 "property_name" -> rooms.getString("r.name"),
@@ -135,7 +135,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
           "currency" -> "COP",
           "agency" -> Json.obj(
             "name" -> "Agencia Scala",
-            "id" -> 42
+            "id" -> 42,
             "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
           ),
           "property_name" -> resultadoRoom.getString("r.name"),
