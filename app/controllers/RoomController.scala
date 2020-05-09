@@ -15,8 +15,7 @@ import java.sql.Timestamp
  * application's home page.
  */
 @Singleton
-class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) {
-
+class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) { 
   def getRooms = Action {
     Ok("ok")
   }
@@ -107,7 +106,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     try{
       val query = conexion.createStatement      
       
-      val resultadoImages = query.executeQuery(s"SELECT url FROM room_images ri WHERE ri.roomId = $id;")      
+      val resultadoImages = query.executeQuery(s"SELECT url FROM Room_Images ri WHERE ri.roomId = $id;")      
       while(resultadoImages.next){
         val jsonImage: JsValue = Json.obj(
           "url" -> resultadoImages.getString("url")
@@ -115,13 +114,13 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
         images = images :+ jsonImage
       }      
 
-      val resultadoServices = query.executeQuery(s"SELECT DISTINCT name FROM services_per_room spr INNER JOIN services s ON spr.serviceId = s.id WHERE spr.roomId = $id;")     
+      val resultadoServices = query.executeQuery(s"SELECT DISTINCT name FROM Services_Per_Room spr INNER JOIN Services s ON spr.serviceId = s.id WHERE spr.roomId = $id;")     
       while(resultadoServices.next){
         val jsonService: String = resultadoServices.getString("name")
         services = services :+ jsonService
       } 
 
-      val resultadoRoom = query.executeQuery(s"SELECT DISTINCT * FROM rooms r INNER JOIN locations l ON r.locationId = l.id WHERE r.id = $id;")
+      val resultadoRoom = query.executeQuery(s"SELECT DISTINCT * FROM Rooms r INNER JOIN Locations l ON r.locationId = l.id WHERE r.id = $id;")
       while(resultadoRoom.next){
         val jsonRoom: JsValue = Json.obj(
           "id" -> resultadoRoom.getInt("r.id"),
@@ -135,8 +134,8 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
           "price" -> resultadoRoom.getDouble("r.price"),
           "currency" -> "COP",
           "agency" -> Json.obj(
-              "name" -> "Agencia Scala",
-              "id" -> 42
+            "name" -> "Agencia Scala",
+            "id" -> 42
             "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
           ),
           "property_name" -> resultadoRoom.getString("r.name"),
@@ -174,7 +173,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
           }else{
             try{            
               val query = conexion.createStatement
-              val resultadosReservasQuery=query.executeQuery(s"SELECT * FROM bookings bo WHERE roomId = ${nuevaReserva("id_room")};")
+              val resultadosReservasQuery=query.executeQuery(s"SELECT * FROM Bookings bo WHERE roomId = ${nuevaReserva("id_room")};")
               var reservaOcupada = false
               while(resultadosReservasQuery.next){
                 var checkinReservado = dateFormat.parse(resultadosReservasQuery.getString("bo.checkin"))
@@ -188,9 +187,9 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
               if(reservaOcupada == true){
                 BadRequest("Occupied room.")
               }else{
-                val resultadoInsert = query.executeUpdate(s"INSERT INTO bookings (`name`, `email`, `checkin`, `checkout`, `roomId`) " +
+                val resultadoInsert = query.executeUpdate(s"INSERT INTO Bookings (`name`, `email`, `checkin`, `checkout`, `roomId`) " +
                 s"VALUES ( '${nuevaReserva("name").as[String]}', '${nuevaReserva("email").as[String]}', '${nuevaReserva("checkin").as[String]}', '${nuevaReserva("checkout").as[String]}', ${nuevaReserva("id_room")})") 
-                val resultadoBusqueda = query.executeQuery("SELECT * FROM bookings b WHERE (SELECT LAST_INSERT_ID())=b.id")
+                val resultadoBusqueda = query.executeQuery("SELECT * FROM Bookings b WHERE (SELECT LAST_INSERT_ID())=b.id")
                 while(resultadoBusqueda.next){
                   val checkin = resultadoBusqueda.getString("b.checkin").substring(0, 10)
                   val checkout = resultadoBusqueda.getString("b.checkout").substring(0, 10)
@@ -218,9 +217,9 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
         
 
         
-      case e:JsError => BadRequest("No se pudo actualizar porque hay malos parametros!!")
+      case e:JsError => BadRequest("Error")
     }.recoverTotal{
-      e:JsError => BadRequest("No se pudo actualizar porque hay malos parametros!!")
+      e:JsError => BadRequest("Error")
     }
   }
 }
