@@ -10,6 +10,11 @@ import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
 import java.sql.Timestamp
 
+import courier._, Defaults._
+
+
+
+
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
@@ -202,6 +207,26 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
                     "id_room" -> resultadoBusqueda.getInt("b.roomId"),
                   )
                   reserva = json
+
+
+               val email = nuevaReserva("email").as[String]
+               val name = nuevaReserva("name").as[String]
+
+               
+               //Get Conection with smtp host and send the email
+               val mailer = Mailer("smtp.gmail.com", 587)
+                              .auth(true)
+                              .as("rentnrooms@gmail.com", "rentrooms20192")
+                              .startTls(true)()
+                mailer(Envelope.from("rentnrooms" `@` "gmail.com")
+                  .to(email.addr)
+                  .cc("leon.arango" `@` "udea.edu.co")
+                  .subject("Rent&Rooms Scala - Successfully Booking")
+                  .content(Text("¡Hello "+ name + " your booking was saved successfully!"))).onSuccess {
+                    case _ => println("message delivered")
+                  }
+
+
                 }
                 val jsonAux = Json.toJson(reserva) // Finalmente, se Jsifican los resultados
                 Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada  
