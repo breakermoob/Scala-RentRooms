@@ -103,7 +103,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
     "Service Test ~ Function userBookings ~ Successfully" in {
       val controller = inject[RoomController]
-      val service = controller.userBookings("leon arango").apply(FakeRequest(GET, "/bookings/"))
+      val service = controller.userBookings("leon.arango@udea.edu.co").apply(FakeRequest(GET, "/bookings/"))
     
       status(service) mustBe OK
       contentType(service) mustBe Some("application/json")
@@ -111,7 +111,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
     }
     "Service Test ~ Function userBookings ~ user not found" in {
       val controller = inject[RoomController]
-      val service = controller.userBookings("pepeloco").apply(FakeRequest(GET, "/bookings/"))
+      val service = controller.userBookings("nico.henao@udea.edu.co").apply(FakeRequest(GET, "/bookings/"))
     
       status(service) mustBe OK
       contentType(service) mustBe Some("application/json")

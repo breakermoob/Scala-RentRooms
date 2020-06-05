@@ -249,7 +249,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     }
   }
 
-  def userBookings(name: String) = Action { implicit request: Request[AnyContent] =>
+  def userBookings(email: String) = Action { implicit request: Request[AnyContent] =>
     // En primer lugar creamos una variable para realizar la conexion con la BD
     val conexion = db.getConnection()  
     // A continuación inicializamos (vaciamos) la lista con la que procesaremos los datos que lleguen de la BD
@@ -257,7 +257,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     try{
       val query = conexion.createStatement
 
-    val resultadoRoom = query.executeQuery(s"SELECT * FROM Rooms AS r INNER JOIN Locations AS l ON r.LocationId = l.id INNER JOIN Bookings AS b ON b.roomId = r.id WHERE b.name = '$name';")          
+    val resultadoRoom = query.executeQuery(s"SELECT * FROM Rooms AS r INNER JOIN Locations AS l ON r.LocationId = l.id INNER JOIN Bookings AS b ON b.roomId = r.id WHERE b.email = '$email';")          
     val roomsRes: List[JsValue] = Iterator.continually(resultadoRoom).takeWhile(_.next()).map{ resultadoRoom =>
         val jsonRoom: JsValue = Json.obj(
           "id_room" -> resultadoRoom.getString("r.id"),
