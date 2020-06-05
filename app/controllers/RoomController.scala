@@ -298,6 +298,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
             "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
           ),
           "property_name" -> resultadoRoom.getString("r.name"),
+          "id_booking" -> resultadoRoom.getString("b.id"),
           "checkin" -> resultadoRoom.getString("b.checkin").substring(0, 10),
           "checkout" -> resultadoRoom.getString("b.checkout").substring(0, 10),
           "total_price" -> resultadoRoom.getInt("b.roomId")
