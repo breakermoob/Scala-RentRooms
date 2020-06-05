@@ -11,7 +11,5 @@ GET     /rooms/search               controllers.RoomController.search(location: 
 GET     /rooms/:id                  controllers.RoomController.detail(id: Long)
 
 # booking
+GET    /booking/:email              controllers.RoomController.userBookings(email: String)
 POST    /booking                    controllers.RoomController.booking
-
-# bookings
-GET    /bookings/:email              controllers.RoomController.userBookings(email: String)

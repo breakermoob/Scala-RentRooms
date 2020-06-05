@@ -14,8 +14,9 @@ Proyecto de Aplicaciones Empresariales en Scala - Backend para Reserva de Habita
 
 ## 👥 Integrantes:
 
-Leon Dario Arango Amaya ~ leon.arango@udea.edu.co
-Nicolas Alberto Henao Avendaño ~ nalberto.henao@udea.edu.co
+- Leon Dario Arango Amaya ~ leon.arango@udea.edu.co
+
+- Nicolas Alberto Henao Avendaño ~ nalberto.henao@udea.edu.co
 
 ---
 
