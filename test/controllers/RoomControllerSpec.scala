@@ -8,16 +8,6 @@ import play.api.libs.json._
 
 
 class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting {
-    
-
-    "Service Test ~ Function getRooms ~ Successfully" in {
-      val controller = inject[RoomController]
-      val service = controller.getRooms().apply(FakeRequest(GET, "/rooms"))
-    
-      status(service) mustBe OK
-      contentType(service) mustBe Some("text/plain")
-      contentAsString(service) must include ("""ok""")
-    }
     "Service Test ~ Function detail ~ Successfully" in {
       val controller = inject[RoomController]
       val service = controller.detail(2).apply(FakeRequest(GET, "/rooms/2"))
@@ -78,7 +68,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
       "Service Test ~ Function search ~ Successfully" in {
       val controller = inject[RoomController]
-      val service = controller.search("BOG","2028-06-04","2028-06-09").apply(FakeRequest(GET, "/rooms/search"))
+      val service = controller.search("BOG","2028-06-04","2028-06-09").apply(FakeRequest(GET, "/rooms/search").withHeaders("authtoken" -> "test_token"))
     
       status(service) mustBe OK
       contentType(service) mustBe Some("application/json")
@@ -86,7 +76,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
     }
       "Service Test ~ Function search ~ Past Date" in {
       val controller = inject[RoomController]
-      val service = controller.search("BOG","2018-06-04","2018-06-09").apply(FakeRequest(GET, "/rooms/search"))
+      val service = controller.search("BOG","2018-06-04","2018-06-09").apply(FakeRequest(GET, "/rooms/search").withHeaders("authtoken" -> "test_token"))
     
       status(service) mustBe BAD_REQUEST
       contentType(service) mustBe Some("text/plain")
@@ -94,7 +84,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
     }
       "Service Test ~ Function search ~ Before Date" in {
       val controller = inject[RoomController]
-      val service = controller.search("BOG","2018-06-09","2018-06-04").apply(FakeRequest(GET, "/rooms/search"))
+      val service = controller.search("BOG","2018-06-09","2018-06-04").apply(FakeRequest(GET, "/rooms/search").withHeaders("authtoken" -> "test_token"))
     
       status(service) mustBe BAD_REQUEST
       contentType(service) mustBe Some("text/plain")
