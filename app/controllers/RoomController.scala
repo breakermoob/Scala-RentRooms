@@ -30,10 +30,10 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     // En primer lugar creamos una variable para realizar la conexion con la BD
     val conexion = db.getConnection()
     
-    val dateFormat = new SimpleDateFormat("yyyy-MM-dd")
+    val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
 
-    val qCheckin = dateFormat.parse(checkin)
-    val qCheckout = dateFormat.parse(checkout)
+    val qCheckin = dateFormat.parse(checkin + " 23:59:59")
+    val qCheckout = dateFormat.parse(checkout + " 00:00:01")
     
     if (qCheckin.compareTo(qCheckout) >=0) {
       BadRequest("Checkin date should be before checkout.")
@@ -73,7 +73,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
                 "currency" -> "COP",
                 "agency" -> Json.obj(
                   "name" -> "Agencia Scala",
-                  "id" -> 42,
+                  "id" -> "42",
                   "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
                 ),
                 "property_name" -> rooms.getString("r.name"),
@@ -140,7 +140,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
           "currency" -> "COP",
           "agency" -> Json.obj(
             "name" -> "Agencia Scala",
-            "id" -> 42,
+            "id" -> "42",
             "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
           ),
           "property_name" -> resultadoRoom.getString("r.name"),
@@ -166,10 +166,10 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
         val conexion = db.getConnection() 
         var reserva: JsValue = Json.obj()
 
-        val dateFormat = new SimpleDateFormat("yyyy-MM-dd")
+        val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
 
-        val qCheckin = dateFormat.parse(nuevaReserva("checkin").as[String])
-        val qCheckout = dateFormat.parse(nuevaReserva("checkout").as[String])           
+        val qCheckin = dateFormat.parse(nuevaReserva("checkin").as[String] + " 23:59:59")
+        val qCheckout = dateFormat.parse(nuevaReserva("checkout").as[String] + " 00:00:01")           
         if(qCheckin.compareTo(qCheckout) >= 0) {
           BadRequest("Checkin date should be before checkout.")
         }else{
