@@ -7,7 +7,7 @@ import play.api.libs.json._
 import models.{Booking, Location, Room}
 import play.api.db._
 import java.text.SimpleDateFormat  
-import java.util.{Calendar, Date}
+import java.util.{Calendar, Date, TimeZone}
 import java.sql.Timestamp
 
 import courier._, Defaults._
@@ -31,7 +31,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
     val conexion = db.getConnection()
     
     val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
-
+    dateFormat.setTimeZone(TimeZone.getTimeZone("America/Bogota"))
     val qCheckin = dateFormat.parse(checkin + " 23:59:59")
     val qCheckout = dateFormat.parse(checkout + " 00:00:01")
     
@@ -167,6 +167,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
         var reserva: JsValue = Json.obj()
 
         val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+        dateFormat.setTimeZone(TimeZone.getTimeZone("America/Bogota"))
 
         val qCheckin = dateFormat.parse(nuevaReserva("checkin").as[String] + " 23:59:59")
         val qCheckout = dateFormat.parse(nuevaReserva("checkout").as[String] + " 00:00:01")           
