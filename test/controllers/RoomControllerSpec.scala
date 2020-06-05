@@ -6,7 +6,7 @@ import play.api.test._
 import play.api.test.Helpers._
 import play.api.libs.json._
 
-
+ 
 class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting {
     "Service Test ~ Function detail ~ Successfully" in {
       val controller = inject[RoomController]
@@ -89,6 +89,23 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
       status(service) mustBe BAD_REQUEST
       contentType(service) mustBe Some("text/plain")
       contentAsString(service) must include ("Checkin date should be before checkout.")
+    }
+
+    "Service Test ~ Function userBookings ~ Successfully" in {
+      val controller = inject[RoomController]
+      val service = controller.userBookings("leon.arango@udea.edu.co").apply(FakeRequest(GET, "/bookings/"))
+    
+      status(service) mustBe OK
+      contentType(service) mustBe Some("application/json")
+      contentAsString(service) must include ("""[{"id_room":"1","thumbnail":"https://rentrooms.s3.amazonaws.com/MDE/MDE-1-tub.jpg","location":{"name":"Medellin","code":"MDE","latitude":6.230833,"longitude":-75.590553}""")
+    }
+    "Service Test ~ Function userBookings ~ user not found" in {
+      val controller = inject[RoomController]
+      val service = controller.userBookings("nico.henao@udea.edu.co").apply(FakeRequest(GET, "/bookings/"))
+    
+      status(service) mustBe OK
+      contentType(service) mustBe Some("application/json")
+      contentAsString(service) must include ("""[]""")
     }
 
 
