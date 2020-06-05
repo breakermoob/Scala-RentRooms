@@ -24,13 +24,17 @@ class Auth {
             .replaceAll("-----BEGIN CERTIFICATE-----", "")
             .replaceAll("-----END CERTIFICATE-----", "")
             .replaceAll("\\s", "")
-            print(pkey)
             val certder = Base64.getMimeDecoder.decode(pkey)
             val certstream = new ByteArrayInputStream(certder)
             val cert = CertificateFactory.getInstance("X.509").generateCertificate(certstream)
             val key = cert.getPublicKey()
 
-            return Jwt.validate(token, key, Seq(JwtAlgorithm.RS256))
+            try {
+              val result = Jwt.validate(token, key, Seq(JwtAlgorithm.RS256))
+              return Success(true)
+            } catch {
+                case e: Exception => return Failure(e)
+            }
           }
           case None => return Failure(new java.lang.Exception("Public key can't be retrieved."))
         }

@@ -14,6 +14,8 @@ import courier._, Defaults._
 
 import auth.Auth
 
+import scala.util.{Try, Success, Failure}
+
 
 
 
@@ -27,78 +29,96 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
   def search(location: String, checkin: String, checkout: String) = Action { implicit request: Request[AnyContent] =>
     val au = new Auth
     
-    val validation = au.validate("eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0Mzg3ZGUyMDUxMWNkNDgzYTIwZDIyOGQ5OTI4ZTU0YjNlZTBlMDgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vcmVudHJvb21zLTIwMTkyIiwiYXVkIjoicmVudHJvb21zLTIwMTkyIiwiYXV0aF90aW1lIjoxNTkxMzMzNjc5LCJ1c2VyX2lkIjoidXlwbnhnWU1uYU05ak9iOTBjSkNaZ3ZWMTBDMyIsInN1YiI6InV5cG54Z1lNbmFNOWpPYjkwY0pDWmd2VjEwQzMiLCJpYXQiOjE1OTEzMzM2NzksImV4cCI6MTU5MTMzNzI3OSwiZW1haWwiOiJhcnJlbmRhbWllbnRvc2xhbWJkYUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYXJyZW5kYW1pZW50b3NsYW1iZGFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.YPAhLCVlJW50zkOu6iIqwkPXM37s6hpM5L5MxjUAQT4dd7cTY2qfN1q8WHiyUhXw0yumo7a4cPAr1OGZCxrnpE9wGwVAaDEkoM-_rif6j7e4iQUCDhg1x5ylvtgt5XN3ScY-uQ0AQkBYtYknT5AJKm6qVZx5pt8eTFgIH0i_TzppgC2hXdn081O0JQMsA0l2ofHlUMCA7j2FIg3s4ZvmqZKpmHen3gb_GiMrgvPXn8-uPQe_5yRsSGa1An9BU94a7ViqUMvExLYtGbh00bA0EAyPPADqyLuYZklQs6mu62HXWvralPsGnufY2g_iOHtlIu0n2Bm8_GSXKTpU4GhLGw")
-    println("validation:" + validation)
-    // En primer lugar creamos una variable para realizar la conexion con la BD
-    val conexion = db.getConnection()
+    val optToken = request.headers.get("authtoken")
     
-    val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
-    dateFormat.setTimeZone(TimeZone.getTimeZone("America/Bogota"))
-    val qCheckin = dateFormat.parse(checkin + " 23:59:59")
-    val qCheckout = dateFormat.parse(checkout + " 00:00:01")
+    val token = optToken match {
+      case Some(t) => t
+      case None => ""
+    }
+
+    val validation = au.validate(token)
+    println("validation: " + validation)
+
+    val authenticated = validation match {
+      case Success(b) => b
+      case Failure(f) => false
+    }
     
-    if (qCheckin.compareTo(qCheckout) >=0) {
-      BadRequest("Checkin date should be before checkout.")
-    } else {
-      if (qCheckin.compareTo(Calendar.getInstance().getTime()) < 0) {
-        BadRequest("Checkin date could not be in the past.")
+    if(authenticated) {
+      // En primer lugar creamos una variable para realizar la conexion con la BD
+    
+      val conexion = db.getConnection()
+    
+      val dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+      dateFormat.setTimeZone(TimeZone.getTimeZone("America/Bogota"))
+      val qCheckin = dateFormat.parse(checkin + " 23:59:59")
+      val qCheckout = dateFormat.parse(checkout + " 00:00:01")
+      
+      if (qCheckin.compareTo(qCheckout) >=0) {
+        BadRequest("Checkin date should be before checkout.")
       } else {
-        try{
-        // Ahora creamos una variable en donde formulamos nuestra query SQL de búsqueda y la ejecutamos
-          val query = conexion.createStatement
-          val query1 = conexion.createStatement
-          val rooms = query.executeQuery(s"SELECT * FROM Rooms r INNER JOIN Locations l ON r.locationId = l.id WHERE l.code = '$location'")
-            
-          // Ya con el resultado de la consulta, creamos objetos mascota y los agregamos a la lista de apoyo
-          val roomsRes: List[JsValue] = Iterator.continually(rooms).takeWhile(_.next()).map{ rooms =>
-            val roomId = rooms.getInt("r.id")
-            val bookings = query1.executeQuery(s"SELECT * FROM Bookings WHERE roomId = $roomId")
-            
-            val bookingsRes: List[java.sql.ResultSet] = Iterator.continually(bookings).takeWhile(_.next()).filter{ bookings =>
-              val bCheckin = bookings.getTimestamp("checkin")
-              val bCheckout = bookings.getTimestamp("checkout")
+        if (qCheckin.compareTo(Calendar.getInstance().getTime()) < 0) {
+          BadRequest("Checkin date could not be in the past.")
+        } else {
+          try{
+          // Ahora creamos una variable en donde formulamos nuestra query SQL de búsqueda y la ejecutamos
+            val query = conexion.createStatement
+            val query1 = conexion.createStatement
+            val rooms = query.executeQuery(s"SELECT * FROM Rooms r INNER JOIN Locations l ON r.locationId = l.id WHERE l.code = '$location'")
+              
+            // Ya con el resultado de la consulta, creamos objetos mascota y los agregamos a la lista de apoyo
+            val roomsRes: List[JsValue] = Iterator.continually(rooms).takeWhile(_.next()).map{ rooms =>
+              val roomId = rooms.getInt("r.id")
+              val bookings = query1.executeQuery(s"SELECT * FROM Bookings WHERE roomId = $roomId")
+              
+              val bookingsRes: List[java.sql.ResultSet] = Iterator.continually(bookings).takeWhile(_.next()).filter{ bookings =>
+                val bCheckin = bookings.getTimestamp("checkin")
+                val bCheckout = bookings.getTimestamp("checkout")
 
-              (qCheckin.compareTo(bCheckin) <= 0  && qCheckout.compareTo(bCheckout) >= 0) || (qCheckin.compareTo(bCheckin) >= 0 && qCheckin.compareTo(bCheckout) < 0) || (qCheckout.compareTo(bCheckin) > 0 && qCheckout.compareTo(bCheckout) <= 0)
-            }.toList
-            
-            if (bookingsRes == Nil) {
-              val json: JsValue = Json.obj(
-                "id" -> rooms.getString("r.id"),
-                "thumbnail" -> rooms.getString("r.thumbnail"),
-                "location" -> Json.obj(
-                  "name" -> rooms.getString("l.name"),
-                  "code" -> rooms.getString("l.code"),
-                  "latitude" -> rooms.getDouble("l.latitude"),
-                  "longitude" -> rooms.getDouble("l.longitude")
-                ),
-                "price" -> rooms.getDouble("r.price"),
-                "currency" -> "COP",
-                "agency" -> Json.obj(
-                  "name" -> "Agencia Scala",
-                  "id" -> "42",
-                  "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
-                ),
-                "property_name" -> rooms.getString("r.name"),
-                "rating" -> rooms.getDouble("r.rating")
-              )
+                (qCheckin.compareTo(bCheckin) <= 0  && qCheckout.compareTo(bCheckout) >= 0) || (qCheckin.compareTo(bCheckin) >= 0 && qCheckin.compareTo(bCheckout) < 0) || (qCheckout.compareTo(bCheckin) > 0 && qCheckout.compareTo(bCheckout) <= 0)
+              }.toList
+              
+              if (bookingsRes == Nil) {
+                val json: JsValue = Json.obj(
+                  "id" -> rooms.getString("r.id"),
+                  "thumbnail" -> rooms.getString("r.thumbnail"),
+                  "location" -> Json.obj(
+                    "name" -> rooms.getString("l.name"),
+                    "code" -> rooms.getString("l.code"),
+                    "latitude" -> rooms.getDouble("l.latitude"),
+                    "longitude" -> rooms.getDouble("l.longitude")
+                  ),
+                  "price" -> rooms.getDouble("r.price"),
+                  "currency" -> "COP",
+                  "agency" -> Json.obj(
+                    "name" -> "Agencia Scala",
+                    "id" -> "42",
+                    "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
+                  ),
+                  "property_name" -> rooms.getString("r.name"),
+                  "rating" -> rooms.getDouble("r.rating")
+                )
 
-              Some(json)
-            }
-            else
-              None
-          }.toList.flatten
-          
-          val jsonAux = Json.toJson(roomsRes) // Finalmente, se Jsifican los resultados
-          Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada
-        }/*
-        catch{
-          case e: Exception => BadRequest(e.toString())
-        }*/
-        finally{
-          // Antes de retornar los resultados, cerramos la conexión a la BD
-          conexion.close()
+                Some(json)
+              }
+              else
+                None
+            }.toList.flatten
+            
+            val jsonAux = Json.toJson(roomsRes) // Finalmente, se Jsifican los resultados
+            Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada
+          }/*
+          catch{
+            case e: Exception => BadRequest(e.toString())
+          }*/
+          finally{
+            // Antes de retornar los resultados, cerramos la conexión a la BD
+            conexion.close()
+          }
         }
       }
+    } else {
+      BadRequest("User not authenticated.")
     }
   }
   
