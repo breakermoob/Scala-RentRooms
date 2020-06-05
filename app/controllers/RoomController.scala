@@ -12,6 +12,8 @@ import java.sql.Timestamp
 
 import courier._, Defaults._
 
+import auth.Auth
+
 
 
 
@@ -20,13 +22,13 @@ import courier._, Defaults._
  * application's home page.
  */
 @Singleton
-class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) { 
-  def getRooms = Action {
-    Ok("ok")
-  }
-
+class RoomController @Inject()(db: Database,cc: ControllerComponents) extends AbstractController(cc) {
   //Service to search rooms available
   def search(location: String, checkin: String, checkout: String) = Action { implicit request: Request[AnyContent] =>
+    val au = new Auth
+    
+    val validation = au.validate("eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0Mzg3ZGUyMDUxMWNkNDgzYTIwZDIyOGQ5OTI4ZTU0YjNlZTBlMDgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vcmVudHJvb21zLTIwMTkyIiwiYXVkIjoicmVudHJvb21zLTIwMTkyIiwiYXV0aF90aW1lIjoxNTkxMzMzNjc5LCJ1c2VyX2lkIjoidXlwbnhnWU1uYU05ak9iOTBjSkNaZ3ZWMTBDMyIsInN1YiI6InV5cG54Z1lNbmFNOWpPYjkwY0pDWmd2VjEwQzMiLCJpYXQiOjE1OTEzMzM2NzksImV4cCI6MTU5MTMzNzI3OSwiZW1haWwiOiJhcnJlbmRhbWllbnRvc2xhbWJkYUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYXJyZW5kYW1pZW50b3NsYW1iZGFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.YPAhLCVlJW50zkOu6iIqwkPXM37s6hpM5L5MxjUAQT4dd7cTY2qfN1q8WHiyUhXw0yumo7a4cPAr1OGZCxrnpE9wGwVAaDEkoM-_rif6j7e4iQUCDhg1x5ylvtgt5XN3ScY-uQ0AQkBYtYknT5AJKm6qVZx5pt8eTFgIH0i_TzppgC2hXdn081O0JQMsA0l2ofHlUMCA7j2FIg3s4ZvmqZKpmHen3gb_GiMrgvPXn8-uPQe_5yRsSGa1An9BU94a7ViqUMvExLYtGbh00bA0EAyPPADqyLuYZklQs6mu62HXWvralPsGnufY2g_iOHtlIu0n2Bm8_GSXKTpU4GhLGw")
+    println("validation:" + validation)
     // En primer lugar creamos una variable para realizar la conexion con la BD
     val conexion = db.getConnection()
     

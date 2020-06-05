@@ -4,7 +4,6 @@
 # ~~~~
 
 # Rutas Rent&Rooms
-GET  /rooms  controllers.RoomController.getRooms
 
 # rooms
 GET     /rooms/search               controllers.RoomController.search(location: String, checkin: String, checkout: String)

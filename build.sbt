@@ -6,6 +6,8 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala).settings(
     libraryDependencies += guice,
     libraryDependencies += jdbc,
     libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.41",
+    libraryDependencies += "org.scalaj" %% "scalaj-http" % "2.3.0",
+    libraryDependencies += "com.pauldijou" %% "jwt-core" % "4.2.0",
     libraryDependencies += "com.github.daddykotex" %% "courier" % "2.0.0",
     libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
   )
