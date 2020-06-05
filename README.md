@@ -14,10 +14,10 @@ Proyecto de Aplicaciones Empresariales en Scala - Backend para Reserva de Habita
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf1e6701bfe046d38b58701f817dfc3f)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=breakermoob/Scala-RentRooms&utm_campaign=Badge_Grade)
 
-## :busts_in_silhouette: Integrantes:
+## 👥 Integrantes:
 
-- Leon Dario Arango Amaya ~ leon.arango@udea.edu.co
-- Nicolas Alberto Henao Avendaño ~ nalberto.henao@udea.edu.co
+Leon Dario Arango Amaya ~ leon.arango@udea.edu.co
+Nicolas Alberto Henao Avendaño ~ nalberto.henao@udea.edu.co
 
 ---
 
