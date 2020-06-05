@@ -15,31 +15,48 @@ Proyecto de Aplicaciones Empresariales en Scala - Backend para Reserva de Habita
 
 ## Funcionalidades
 
-- [Ejemplo](#ejemplo-1)
+- [Search](#search)
 
 ---
 
-## Ejemplo 1
+## Search
 
-> ### GET /ruta
+> ### GET /rooms/search
 
 #### Descripción
 
-.......... contenido
+Esta ruta obtiene todos los cuartos disponibles en una ciudad, durante una fecha determinada.
 
-#### JSON entrada
-
-```
-{}
-```
-
-#### JSON salida
+#### Parámetros entrada - Ejemplo
 
 ```
-{
-    "aaa":"bbb",
+location=MDE
+checkin=2022-06-19
+checkout=2022-06-25
+```
 
-}
+#### JSON salida - Ejemplo
+
+```
+[{
+    "id": "1",
+    "thumbnail": "https://rentrooms.s3.amazonaws.com/MDE/MDE-1-tub.jpg",
+    "location": {
+        "name": "Medellin",
+        "code": "MDE",
+        "latitude": 6.230833,
+        "longitude": -75.590553
+    },
+    "price": 600000,
+    "currency": "COP",
+    "agency": {
+        "name": "Agencia Scala",
+        "id": "42",
+        "logo_url": "https://rentrooms.s3.amazonaws.com/Scala.png"
+    },
+    "property_name": "Vendo Casa Grande Santa Monica",
+    "rating": 4.5
+}]
 ```
 
 ## Ejemplo 2

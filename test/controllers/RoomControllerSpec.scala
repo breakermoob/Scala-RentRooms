@@ -101,5 +101,22 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
       contentAsString(service) must include ("Checkin date should be before checkout.")
     }
 
+    "Service Test ~ Function userBookings ~ Successfully" in {
+      val controller = inject[RoomController]
+      val service = controller.userBookings("leon arango").apply(FakeRequest(GET, "/bookings/"))
+    
+      status(service) mustBe OK
+      contentType(service) mustBe Some("application/json")
+      contentAsString(service) must include ("""[{"id_room":"1","thumbnail":"https://rentrooms.s3.amazonaws.com/MDE/MDE-1-tub.jpg","location":{"name":"Medellin","code":"MDE","latitude":6.230833,"longitude":-75.590553}""")
+    }
+    "Service Test ~ Function userBookings ~ user not found" in {
+      val controller = inject[RoomController]
+      val service = controller.userBookings("pepeloco").apply(FakeRequest(GET, "/bookings/"))
+    
+      status(service) mustBe OK
+      contentType(service) mustBe Some("application/json")
+      contentAsString(service) must include ("""[]""")
+    }
+
 
 }
