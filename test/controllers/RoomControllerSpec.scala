@@ -9,7 +9,6 @@ import play.api.libs.json._
  
 class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting {
     
-
     "Service Test ~ Function getRooms ~ Successfully" in {
       val controller = inject[RoomController]
       val service = controller.getRooms().apply(FakeRequest(GET, "/rooms"))
