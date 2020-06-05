@@ -10,6 +10,14 @@ import play.api.libs.json._
 class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting {
     
 
+    "Service Test ~ Function getRooms ~ Successfully" in {
+      val controller = inject[RoomController]
+      val service = controller.getRooms().apply(FakeRequest(GET, "/rooms"))
+    
+      status(service) mustBe OK
+      contentType(service) mustBe Some("text/plain")
+      contentAsString(service) must include ("""ok""")
+    }
     "Service Test ~ Function detail ~ Successfully" in {
       val controller = inject[RoomController]
       val service = controller.detail(2).apply(FakeRequest(GET, "/rooms/2"))
@@ -44,7 +52,6 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
         }
 
 
-
       // "Prueba de servicio ~ Buscar inmuebles" in {
       //   val controller = inject[RoomController]
       //   val payload = """{
@@ -71,20 +78,28 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
       "Service Test ~ Function search ~ Successfully" in {
       val controller = inject[RoomController]
-      val service = controller.detail(2).apply(FakeRequest(GET, "/rooms/search?location=BOG&checkin=2028-06-04&checkout=2028-06-09"))
+      val service = controller.search("BOG","2028-06-04","2028-06-09").apply(FakeRequest(GET, "/rooms/search"))
     
       status(service) mustBe OK
       contentType(service) mustBe Some("application/json")
       contentAsString(service) must include ("""{"id":"2",""")
     }
-    //   "Service Test ~ Function search ~ Past Date" in {
-    //   val controller = inject[RoomController]
-    //   val service = controller.detail(2).apply(FakeRequest(GET, "/rooms/search?location=BOG&checkin=2018-06-04&checkout=2018-06-09"))
+      "Service Test ~ Function search ~ Past Date" in {
+      val controller = inject[RoomController]
+      val service = controller.search("BOG","2018-06-04","2018-06-09").apply(FakeRequest(GET, "/rooms/search"))
     
-    //   status(service) mustBe BAD_REQUEST
-    //   contentType(service) mustBe Some("text/plain")
-    //   contentAsString(service) must include ("Checkin date could not be in the past.")
-    // }
+      status(service) mustBe BAD_REQUEST
+      contentType(service) mustBe Some("text/plain")
+      contentAsString(service) must include ("Checkin date could not be in the past.")
+    }
+      "Service Test ~ Function search ~ Before Date" in {
+      val controller = inject[RoomController]
+      val service = controller.search("BOG","2018-06-09","2018-06-04").apply(FakeRequest(GET, "/rooms/search"))
+    
+      status(service) mustBe BAD_REQUEST
+      contentType(service) mustBe Some("text/plain")
+      contentAsString(service) must include ("Checkin date should be before checkout.")
+    }
 
 
 }

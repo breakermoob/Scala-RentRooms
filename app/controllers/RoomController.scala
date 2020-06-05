@@ -61,7 +61,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
             
             if (bookingsRes == Nil) {
               val json: JsValue = Json.obj(
-                "id" -> rooms.getString(roomId),
+                "id" -> rooms.getString("r.id"),
                 "thumbnail" -> rooms.getString("r.thumbnail"),
                 "location" -> Json.obj(
                   "name" -> rooms.getString("l.name"),
