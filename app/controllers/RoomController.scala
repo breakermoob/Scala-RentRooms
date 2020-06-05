@@ -248,4 +248,49 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
       e:JsError => BadRequest("Error")
     }
   }
+
+  def userBookings(name: String) = Action { implicit request: Request[AnyContent] =>
+    // En primer lugar creamos una variable para realizar la conexion con la BD
+    val conexion = db.getConnection()  
+    // A continuación inicializamos (vaciamos) la lista con la que procesaremos los datos que lleguen de la BD
+    var room: JsValue = Json.obj()   
+    try{
+      val query = conexion.createStatement
+
+    val resultadoRoom = query.executeQuery(s"SELECT * FROM Rooms AS r INNER JOIN Locations AS l ON r.LocationId = l.id INNER JOIN Bookings AS b ON b.roomId = r.id WHERE b.name = '$name';")          
+    val roomsRes: List[JsValue] = Iterator.continually(resultadoRoom).takeWhile(_.next()).map{ resultadoRoom =>
+        val jsonRoom: JsValue = Json.obj(
+          "id_room" -> resultadoRoom.getString("r.id"),
+          "thumbnail" -> resultadoRoom.getString("r.thumbnail"),
+          "location" -> Json.obj(
+            "name" -> resultadoRoom.getString("l.name"),
+            "code" -> resultadoRoom.getString("l.code"),
+            "latitude" -> resultadoRoom.getDouble("l.latitude"),
+            "longitude" -> resultadoRoom.getDouble("l.longitude")
+          ),
+          "price" -> resultadoRoom.getDouble("r.price"),
+          "currency" -> "COP",
+          "agency" -> Json.obj(
+            "name" -> "Agencia Scala",
+            "id" -> "42",
+            "logo_url" -> "https://rentrooms.s3.amazonaws.com/Scala.png"
+          ),
+          "property_name" -> resultadoRoom.getString("r.name"),
+          "checkin" -> resultadoRoom.getString("b.checkin").substring(0, 10),
+          "checkout" -> resultadoRoom.getString("b.checkout").substring(0, 10),
+          "total_price" -> resultadoRoom.getInt("b.roomId")
+        )
+        
+        room = jsonRoom   
+        Some(jsonRoom)
+      }.toList.flatten
+
+      val jsonAux = Json.toJson(roomsRes) // Finalmente, se Jsifican los resultados
+      Ok(jsonAux) // Y se retorna la lista de habitaciones Jsificada    
+    }
+    finally{
+      // Antes de retornar los resultados, cerramos la conexión a la BD
+      conexion.close()
+    }
+  }
 }
