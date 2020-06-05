@@ -10,9 +10,7 @@ Proyecto de Aplicaciones Empresariales en Scala - Backend para Reserva de Habita
 
 ---
 
-[![Codeship Status for breakermoob/Scala-RentRooms](https://app.codeship.com/projects/29bb4250-8767-0138-d1e8-6e38c3c343f5/status?branch=master)](https://app.codeship.com/projects/398707)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf1e6701bfe046d38b58701f817dfc3f)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=breakermoob/Scala-RentRooms&utm_campaign=Badge_Grade)
+[![Codeship Status for breakermoob/Scala-RentRooms](https://app.codeship.com/projects/29bb4250-8767-0138-d1e8-6e38c3c343f5/status?branch=master)](https://app.codeship.com/projects/398707) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf1e6701bfe046d38b58701f817dfc3f)](https://www.codacy.com?utm_source=github.com&utm_medium=referral&utm_content=breakermoob/Scala-RentRooms&utm_campaign=Badge_Grade)
 
 ## 👥 Integrantes:
 
