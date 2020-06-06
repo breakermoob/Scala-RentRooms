@@ -1,0 +1,908 @@
+2020.06.04 07:31:31 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.04 07:31:32 INFO  time: initialize in 0.97s
+2020.06.04 07:31:36 INFO  no build target: using presentation compiler with only scala-library
+2020.06.04 07:31:39 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:36:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:36:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:39:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:39:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:40:45 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:40:46 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:41:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:41:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:43:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:43:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:43:40 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:46:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:46:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:46:35 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:46:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:47:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:48:00 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:50:23 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 07:50:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 7:54:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 581
+2020.06.04 07:58:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:58:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:58:14 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 07:58:14 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 08:09:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 08:09:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 08:09:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 8:09:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 650
+jun 04, 2020 8:09:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 649
+2020.06.04 08:21:27 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 08:21:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 08:21:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 08:21:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 8:49:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 738
+2020.06.04 08:49:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 08:49:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 8:50:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 741
+jun 04, 2020 8:50:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 750
+2020.06.04 08:50:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 8:50:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 752
+jun 04, 2020 8:50:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 753
+2020.06.04 08:50:05 INFO  shutting down Metals
+2020.06.04 11:35:48 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.04 11:35:48 INFO  time: initialize in 0.77s
+2020.06.04 11:35:54 INFO  skipping build import with status 'Requested'
+2020.06.04 11:35:54 INFO  no build target: using presentation compiler with only scala-library
+2020.06.04 11:35:56 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 11:38:22 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:39:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:43:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 11:43:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 304
+2020.06.04 11:46:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:46:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:47:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:52:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:52:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:53:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:53:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:53:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:53:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:55:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:55:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 11:55:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 633
+2020.06.04 11:55:51 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:55:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:55:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:55:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:57:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:57:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 11:57:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:00:53 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:03:50 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:05:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:05:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:05:40 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:10:06 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:11:37 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:12:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:12:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:13:41 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:15:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:15:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:15:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:16:27 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:16:27 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:17:06 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:17:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:17:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:17:13 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 12:18:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:18:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:18:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 12:24:08 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+jun 04, 2020 1:03:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1462
+2020.06.04 13:03:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:03:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:03:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:03:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:25 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:25 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:25 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 1:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1608
+2020.06.04 13:14:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:14:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:15:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:15:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:15:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:15:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:16:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:16:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:18:29 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:18:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:18:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:18:59 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:21:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:00 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:51 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:22:51 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:23:08 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:26:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:26:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:27:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:27:50 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:28:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:28:30 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:32:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:32:10 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:33:54 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:34:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:34:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:35:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:35:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:35:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:36:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:36:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:36:45 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:36:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:36:50 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:38:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:34 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:38:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:38:56 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:40:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:40:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:40:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:40:45 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:40:50 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:47:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:47:57 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:47:57 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:47:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:51:25 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:55:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:55:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:56:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 13:56:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 13:56:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:01:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3082
+2020.06.04 14:01:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:01:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:02:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:02:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:02:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:02:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:05:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:05:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:05:13 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:06:19 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:06:19 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:08:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:45 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:08:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:09:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:09:12 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:10:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:10:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:11:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:11:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:11:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:11:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:12:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:16:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:16:47 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:16:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:23:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:23:48 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:27:35 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:35:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:41:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:41:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:41:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:41:32 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:43:46 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:48:25 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:48:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:48:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.04 14:48:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:48:44 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:48:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:48:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:49:04 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:53:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:53:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4450
+2020.06.04 14:54:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4453
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4457
+2020.06.04 14:54:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4456
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4459
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4458
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4460
+2020.06.04 14:54:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 2:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4461
+2020.06.04 14:54:02 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:54:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:54:02 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:54:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:54:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:54:56 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:54:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 14:56:46 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:56:46 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:56:59 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:57:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:57:37 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:58:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:58:01 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 14:58:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 14:59:38 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 14:59:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 15:00:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:00:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 15:00:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:00:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:00:42 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:05:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 15:06:16 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+jun 04, 2020 3:06:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.04 15:09:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:09:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:09:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:09:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:10:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:10:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:11:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:13:01 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:14:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:16:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:16:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:17:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:18:14 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:19:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:19:16 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:21:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:21:40 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:22:28 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:23:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:24:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:24:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:24:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:25:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:25:15 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:26:18 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:26:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:26:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:26:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:26:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:26:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:30:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:30:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:33:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:33:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 15:33:16 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:33:16 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:34:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:34:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:35:32 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:37:47 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:39:06 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:40:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:40:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:40:47 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:40:47 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:45:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:45:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:45:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:45:58 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:46:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 15:46:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 15:56:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:41:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:41:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:41:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:41:43 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:41:43 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:19 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:19 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:46 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:42:55 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:43:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:43:18 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:43:18 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:43:18 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:44:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:44:07 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:45:38 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:46:21 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:48:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:48:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:49:29 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+jun 04, 2020 6:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 7010
+2020.06.04 18:51:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:51 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:55 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:52:55 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:02 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:19 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:53:55 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:55:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 18:55:13 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 18:58:52 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:01:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:01:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:01:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:01:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:02:08 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:02:55 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:03:27 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:03:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:03:29 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:03:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:03:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:04:04 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:04:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:07:25 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:10:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:10:54 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:11:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:11:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:11:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:13:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:13:54 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:13:58 INFO  running 'C:\Program Files\Java\jdk1.8.0_161\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\break\AppData\Local\Temp\metals1270361370713242552\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.04 19:14:08 INFO  [info] Loading global plugins from C:\Users\break\.sbt\1.0\plugins
+2020.06.04 19:14:18 INFO  [info] Loading settings from metals.sbt,plugins.sbt,scaffold.sbt ...
+2020.06.04 19:14:18 INFO  [info] Loading project definition from C:\Users\break\Desktop\Scala-RentRooms\project
+2020.06.04 19:14:20 INFO  [info] Updating {file:/C:/Users/break/Desktop/Scala-RentRooms/project/}scala-rentrooms-build...
+2020.06.04 19:14:47 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar ...
+2020.06.04 19:14:47 INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.0-RC1-229-b7c15aa9/sbt-bloop-1.4.0-RC1-229-b7c15aa9.jar ...
+2020.06.04 19:14:50 INFO  [info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.7!gson.jar (3271ms)
+2020.06.04 19:15:32 INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.0-RC1-229-b7c15aa9!sbt-bloop.jar (45374ms)
+2020.06.04 19:15:32 INFO  [info] Done updating.
+2020.06.04 19:15:32 INFO  [warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+2020.06.04 19:15:32 INFO  [warn] 	* org.webjars:webjars-locator-core:0.33 is selected over 0.32
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.typesafe:npm_2.12:1.2.1                        (depends on 0.32)
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.typesafe.sbt:sbt-web:1.4.3 (scalaVersion=2.12, sbtVersion=1.0) (depends on 0.32)
+2020.06.04 19:15:32 INFO  [warn] 	* org.codehaus.plexus:plexus-utils:3.0.17 is selected over {2.1, 1.5.5}
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-settings:3.2.2              (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-repository-metadata:3.2.2   (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-aether-provider:3.2.2       (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-model:3.2.2                 (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-core:3.2.2                  (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-artifact:3.2.2              (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-settings-builder:3.2.2      (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.apache.maven:maven-model-builder:3.2.2         (depends on 3.0.17)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.sonatype.plexus:plexus-sec-dispatcher:1.3      (depends on 1.5.5)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5  (depends on 2.1)
+2020.06.04 19:15:32 INFO  [warn] 	* com.google.guava:guava:23.0 is selected over {10.0.1, 16.0, 20.0}
+2020.06.04 19:15:32 INFO  [warn] 	    +- io.methvin:directory-watcher:0.3.2                 (depends on 23.0)
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.fasterxml.jackson.datatype:jackson-datatype-guava:2.8.8 (depends on 10.0.1)
+2020.06.04 19:15:32 INFO  [warn] 	    +- org.eclipse.sisu:org.eclipse.sisu.plexus:0.0.0.M5  (depends on 10.0.1)
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.spotify:docker-client:8.9.0                    (depends on 10.0.1)
+2020.06.04 19:15:32 INFO  [warn] 	* org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r is selected over 3.6.2.201501210735-r
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.heroku.sdk:heroku-deploy:2.0.16                (depends on 4.11.7.201903122105-r)
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.codacy:codacy-api-scala_2.12:3.0.7             (depends on 3.6.2.201501210735-r)
+2020.06.04 19:15:32 INFO  [warn] 	* com.google.code.findbugs:jsr305:3.0.2 is selected over 1.3.9
+2020.06.04 19:15:32 INFO  [warn] 	    +- ch.epfl.scala:sbt-bloop:1.4.0-RC1-229-b7c15aa9 (scalaVersion=2.12, sbtVersion=1.0) (depends on 3.0.2)
+2020.06.04 19:15:32 INFO  [warn] 	    +- com.google.guava:guava:23.0                        (depends on 1.3.9)
+2020.06.04 19:15:33 INFO  [warn] Run 'evicted' to see detailed eviction warnings
+2020.06.04 19:15:37 INFO  skipping build import with status 'Dismissed'
+2020.06.04 19:15:40 INFO  [info] Loading settings from build.sbt ...
+2020.06.04 19:15:40 INFO  [info] Set current project to RentRooms (in build file:/C:/Users/break/Desktop/Scala-RentRooms/)
+2020.06.04 19:15:42 INFO  user cancelled build import
+2020.06.04 19:15:42 INFO  time: ran 'sbt bloopInstall' in 1m43s
+2020.06.04 19:15:42 INFO  build tool exit: 2147483647
+2020.06.04 19:17:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+jun 04, 2020 7:21:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 7917
+2020.06.04 19:21:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:21:59 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:22:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:22:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 19:22:35 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:24:06 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:27:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:27:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:28:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:28:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:28:09 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:29:57 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:31:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:31:15 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:31:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:31:34 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:32:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:05 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:32:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:32:48 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:32:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:33:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:33:57 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:35:43 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:40:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:40:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:40:31 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:43:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:43:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:44:16 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:44:58 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:45:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:47:19 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:47:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+jun 04, 2020 7:47:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 8705
+2020.06.04 19:47:29 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:49:53 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:54:53 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:54:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 19:54:57 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 19:55:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 19:57:18 INFO  skipping build import with status 'Dismissed'
+2020.06.04 20:00:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:00:32 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:00:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:00:36 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:00:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:01:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:01:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:01:43 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:03:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:03:10 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:04:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:04:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:04:26 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:05:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:11:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:11:38 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:12:56 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:14:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:18:05 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:22 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:18:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:19:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:20:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:21:05 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:22:20 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:23:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 20:23:08 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:26:26 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:29:09 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 20:29:09 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+jun 04, 2020 8:35:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9712
+2020.06.04 21:03:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:03:13 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:03:14 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:03:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:03:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:03:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:04:36 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:05:03 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:05:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:15:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 21:16:22 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:16:22 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:16:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:17:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:17:12 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:18:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:18:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:27:40 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:28:00 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:28:00 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:28:02 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:28:59 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:28:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:28:59 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:28:59 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:29:00 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:30:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:30:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:30:01 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+jun 04, 2020 9:54:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10486
+2020.06.04 21:55:09 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:55:41 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 21:55:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:57:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:57:23 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 21:57:25 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:00:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:01:28 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 22:01:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:01:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:02:21 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:10:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:10:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:10:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:10:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:10:35 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 22:14:10 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:14:27 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:24:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:24:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:24:49 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:29:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:30:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:33:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:33:27 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:33:53 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:33:53 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:33:53 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:20 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:20 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.04 22:43:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:43:21 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.04 22:43:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.04 22:52:33 INFO  shutting down Metals
+2020.06.04 23:01:57 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.04 23:01:57 INFO  time: initialize in 0.66s
+2020.06.04 23:02:03 INFO  skipping build import with status 'Requested'
+2020.06.04 23:02:03 INFO  no build target: using presentation compiler with only scala-library
+2020.06.04 23:02:07 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 00:36:35 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 00:55:39 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:55:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:58:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:59:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:59:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:59:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 00:59:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:01:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:02:30 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:03:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:03:37 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:12:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:16:34 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:16:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:22:19 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:22:26 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:23:34 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:23:54 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:24:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:24:04 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:24:16 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:24:16 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:24:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:24:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:24:22 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:29:03 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:30:51 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\models\Room.scala
+2020.06.05 01:33:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:33:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:33:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:33:48 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:33:48 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:34:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:36:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:36:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:36:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:36:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:36:54 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:08 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:18 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:37:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:04 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:04 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:39:27 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:39:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:33 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:39:37 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:39:50 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:40:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:40:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:40:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:40:55 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:42:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:42:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:42:17 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:42:18 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:43:28 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:44:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:35 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:41 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:44:44 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:44:44 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:45:32 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:45:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:45:58 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:45:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:48:24 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:48:24 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 01:49:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:49:37 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:12 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:25 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:28 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:29 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:50:31 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:51:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 01:52:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:52:07 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 01:52:07 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:55:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 01:57:34 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 01:57:54 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 01:58:58 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 01:58:58 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 02:02:16 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 02:04:34 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 02:04:46 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 02:04:46 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 02:08:23 INFO  shutting down Metals
+2020.06.05 09:03:03 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.05 09:03:04 INFO  time: initialize in 0.94s
+2020.06.05 09:03:08 INFO  skipping build import with status 'Requested'
+2020.06.05 09:03:08 INFO  no build target: using presentation compiler with only scala-library
+2020.06.05 09:03:12 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 09:04:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 09:04:56 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 09:04:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 09:04:57 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 09:07:10 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 09:07:18 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 09:21:38 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 09:22:19 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 09:22:31 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 09:23:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 09:26:42 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 09:40:29 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 09:42:52 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 09:43:45 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 10:19:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 10:19:11 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 10:19:11 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 10:35:00 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\models\Room.scala
+2020.06.05 10:35:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\models\Room.scala
+2020.06.05 10:36:49 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\models\Room.scala
+2020.06.05 10:53:50 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 10:57:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+2020.06.05 10:57:21 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala' because it doesn't belong to a build target.
+jun 05, 2020 10:57:21 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.05 10:57:21 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\test\controllers\RoomControllerSpec.scala
+2020.06.05 11:15:01 INFO  shutting down Metals
+2020.06.05 16:48:59 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.05 16:49:00 INFO  time: initialize in 0.83s
+2020.06.05 16:49:03 INFO  skipping build import with status 'Requested'
+2020.06.05 16:49:03 INFO  no build target: using presentation compiler with only scala-library
+2020.06.05 16:49:08 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 16:52:33 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 16:52:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:52:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:52:52 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:53:14 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:53:53 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:53:53 WARN  code navigation does not work for the file 'C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala' because it doesn't belong to a build target.
+2020.06.05 16:54:06 WARN  no build target for: C:\Users\break\Desktop\Scala-RentRooms\app\controllers\RoomController.scala
+2020.06.05 23:45:18 INFO  started: Metals version 0.9.0 in workspace 'C:\Users\break\Desktop\Scala-RentRooms'
+2020.06.05 23:45:19 INFO  time: initialize in 0.81s
+2020.06.05 23:45:25 INFO  skipping build import with status 'Requested'
