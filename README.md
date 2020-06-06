@@ -82,7 +82,7 @@ Esta ruta obtiene los detalles de un cuarto por su id.
 #### Parámetros entrada - Ejemplo
 
 ```
-    /Rooms/2,
+    /Rooms/2
 ```
 
 #### JSON salida - Ejemplo
@@ -149,7 +149,7 @@ Esta ruta permite realizar reservas de un cuarto durante una fecha con los datos
 
 ## Bookings
 
-> ### GET /bookings/:email
+> ### GET /booking/:email
 
 #### Descripción
 
@@ -158,7 +158,10 @@ Esta ruta permite consultar todas las reservas de un usuario por su email.
 #### Parámetros entrada - Ejemplo
 
 ```
-    /bookings/leon.arango@udea.edu.co
+    /booking/leon.arango@udea.edu.co
+
+    Header
+    authtoken: TOKEN
 ```
 
 #### JSON salida - Ejemplo
