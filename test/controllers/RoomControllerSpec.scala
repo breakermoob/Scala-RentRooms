@@ -66,7 +66,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
           "checkout": "2025-06-09",
           "email": "leon.arango@udea.edu.co",
           "name": "Leon Arango",
-          "id_room": 1
+          "id_room": "1"
         }"""
         val service = controller.booking().apply(FakeRequest(POST, "/booking").withBody(Json.parse(payload)).withHeaders("authtoken" -> "test_token"))
 
@@ -82,7 +82,7 @@ class RoomControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
           "checkout": "2025-06-09",
           "email": "leon.arango@udea.edu.co",
           "name": "Leon Arango",
-          "id_room": 1
+          "id_room": "1"
         }"""
         val service = controller.booking().apply(FakeRequest(POST, "/booking").withBody(Json.parse(payload)).withHeaders("authtoken" -> "wrong_token"))
 
