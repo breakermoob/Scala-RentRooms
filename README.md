@@ -1,1 +1,1 @@
-# RentRooms
+# Scala-RentRooms
