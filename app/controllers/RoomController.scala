@@ -224,7 +224,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
                       "checkout" -> checkout,
                       "email" -> resultadoBusqueda.getString("b.email"),
                       "name" -> resultadoBusqueda.getString("b.name"),
-                      "id_room" -> resultadoBusqueda.getInt("b.roomId"),
+                      "id_room" -> resultadoBusqueda.getString("b.roomId"),
                     )
                     reserva = json
 

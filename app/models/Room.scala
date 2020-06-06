@@ -7,7 +7,7 @@ import play.api.libs.functional.syntax._
 
 
 // Se crea la clase Booking, en la cual los parametros deben coincidir con los campos de la tabla Bookings de la base de datos
-case class Booking(checkin: String, checkout: String, email: String, name: String, id_room:Long)
+case class Booking(checkin: String, checkout: String, email: String, name: String, id_room:String)
 
 // Tambien se crea un objeto Booking con el fin de implementar los métodos para escribir Booking como si fueran Jsons
 object Booking {
