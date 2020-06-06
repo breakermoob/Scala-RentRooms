@@ -9,6 +9,7 @@ import play.api.db._
 import java.text.SimpleDateFormat  
 import java.util.{Calendar, Date, TimeZone}
 import java.sql.Timestamp
+import java.util.concurrent.TimeUnit
 
 import courier._, Defaults._
 
@@ -299,6 +300,10 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
 
       val resultadoRoom = query.executeQuery(s"SELECT * FROM Rooms AS r INNER JOIN Locations AS l ON r.LocationId = l.id INNER JOIN Bookings AS b ON b.roomId = r.id WHERE b.email = '$email';")          
       val roomsRes: List[JsValue] = Iterator.continually(resultadoRoom).takeWhile(_.next()).map{ resultadoRoom =>
+          val price = resultadoRoom.getDouble("r.price")
+          val checkin = resultadoRoom.getDate("b.checkin")
+          val checkout = resultadoRoom.getDate("b.checkout")
+          val daysBooked = TimeUnit.DAYS.convert((checkout.getTime() - checkin.getTime()), TimeUnit.MILLISECONDS)
           val jsonRoom: JsValue = Json.obj(
             "id_room" -> resultadoRoom.getString("r.id"),
             "thumbnail" -> resultadoRoom.getString("r.thumbnail"),
@@ -308,7 +313,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
               "latitude" -> resultadoRoom.getDouble("l.latitude"),
               "longitude" -> resultadoRoom.getDouble("l.longitude")
             ),
-            "price" -> resultadoRoom.getDouble("r.price"),
+            "price" -> price,
             "currency" -> "COP",
             "agency" -> Json.obj(
               "name" -> "Agencia Scala",
@@ -319,7 +324,7 @@ class RoomController @Inject()(db: Database,cc: ControllerComponents) extends Ab
             "id_booking" -> resultadoRoom.getString("b.id"),
             "checkin" -> resultadoRoom.getString("b.checkin").substring(0, 10),
             "checkout" -> resultadoRoom.getString("b.checkout").substring(0, 10),
-            "total_price" -> resultadoRoom.getInt("b.roomId")
+            "total_price" -> price * daysBooked
           )
           
           room = jsonRoom   
