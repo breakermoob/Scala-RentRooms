@@ -12,6 +12,7 @@ import java.io.ByteArrayInputStream
 class Auth {
   def validate(token: String): Try[Boolean] = {
     if(token == "test_token") return Success(true)
+    if(token.split('.').length < 3) return Failure(new java.lang.Exception("Token does not have 3 sections."))
     val textDecoded = new String(Base64.getDecoder.decode(token.split('.')(0)))
     val values = JSON.parseFull(textDecoded)
     values match {
